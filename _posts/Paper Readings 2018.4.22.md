@@ -1,3 +1,11 @@
+---
+layout: post
+title: The main purpose of my blog
+date:   2017-07-10 01:31:00
+categories: Comments
+---
+
+
 # Paper Readings 2018.4.22
 
 ## Learning Transferrable Representations for Unsupervised Domain Adaptation, Ozan Sener et al.
