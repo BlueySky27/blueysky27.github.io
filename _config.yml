@@ -1,12 +1,12 @@
-title: John Smith
+title: Zhang Chi
 description: My Personal Blog
-author: John Smith
+author: Zhanf Chi
 logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/codeasashu
-about: Freelance developer
+github: https://github.com/BlueySky27
+about: Undergraduate Student
 
-baseurl: "https://codeasashu.github.io/hcz-jekyll-blog"
-url: "https://codeasashu.github.io/hcz-jekyll-blog"
+baseurl: "https://blueysky27.github.io"
+url: "https://blueysky27.github.io"
 
 allowsearch: true
 
@@ -14,8 +14,6 @@ disqus_shortname: aboutashu
 google_analytics: UA-72862926-1
 
 share:
-  twitter_username: \#
-  fb_appid: 000000000000
 
 
 enableTags: true
