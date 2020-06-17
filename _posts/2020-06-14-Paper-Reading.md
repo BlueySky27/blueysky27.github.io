@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Paper Reading 2020.06.13"
+date: 2020-06-13 19:00:00 +0900
+categories: PaperReading 
+---
+
+
 # Fast and Accurate LMS Solvers
 
 [Fast and Accurate Least-Mean-Squares Solvers](https://arxiv.org/abs/1906.04705)
