@@ -8,6 +8,10 @@ categories: PaperReading
 <script type="text/javascript" async src="http://cdn.mathjax.org/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
+<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({text2jax: {inlineMath: [['$','$']]}});
+</script>
+
 
 # Fast and Accurate LMS Solvers
 
