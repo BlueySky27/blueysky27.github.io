@@ -35,7 +35,7 @@ categories: PaperReading
     
 4. 网络结构使用weight-sharing multi-layer bidirectional transformer，具体结构参照下图。
 
-    ![avatar](https://github.com/BlueySky27/blueysky27.github.io/blob/master/static/img/Annotation20200617224122.png)
+    ![avatar](https://github.com/BlueySky27/blueysky27.github.io/blob/master/static/img/Annotation20200617224122.png?raw=true)
 
 5. 之后的训练相对来说比较简单。受BERT的启发，作者先用Sketch Gestalt作为预训练的task，然后再训练Sketch Recognition\Retrieval\Gestalt的task。
     - 预训练为将一张素描中15%的点的位置信息和状态信息掩盖（mask）住，然后用Sketch-Bert进行预测。
