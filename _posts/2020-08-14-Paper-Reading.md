@@ -32,11 +32,11 @@ categories: PaperReading
 
 5. 作者的模型基本沿用Image Captioning的基本框架（没有用到比较复杂的网络结构，而是常用的att2in、UpDown和Transformer等），只是对训练过程进行了修改。传统的Image Captioning的训练框架是先在XE loss下进行监督学习训练，然后在强化学习的框架下（SCST）进行训练。作者这里的改动有三点，前两点是基于此前得到的图片权重 $w_i$ 对监督学习的损失函数和强化学习和回报函数进行修改：
 
-    $$\mathcal{L}_{XE}=\sum_{i=1}^Nw_iL_{XE}(c_i^0)\\ \bar\mathcal{R}(c^*)=\frac{1}{N}\sum_{i=1}^Nw_ig_c(c^*,c_i^0)$$
+    $$L_{XE}=\sum_{i=1}^Nw_iL_{XE}(c_i^0)\\ \bar R(c^*)=\frac{1}{N}\sum_{i=1}^Nw_ig_c(c^*,c_i^0)$$
 
     然后是在使用CIDEr的回报函数基础上引入CIDErBtw：
 
-    $$\mathcal{R}(c^*)=\bar\mathcal{R}(c^*)-\alpha_rCIDErBtw(c^*)$$
+    $$R(c^*)=\bar R(c^*)-\alpha_rCIDErBtw(c^*)$$
 
     可以看到这些修改大体都是比较合理而简单的修改。
 
