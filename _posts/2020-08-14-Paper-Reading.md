@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CIDErBtw"
-date: 2020-0814 17:30:00 +0900
+date: 2020-08-14 17:30:00 +0900
 categories: PaperReading
 ---
 
