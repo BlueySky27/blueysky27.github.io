@@ -21,7 +21,7 @@ GEM
     faraday-net_http (1.0.1)
     faraday-net_http_persistent (1.2.0)
     faraday-patron (1.0.0)
-    ffi (1.9.18)
+    ffi (1.15.5)
     forwardable-extended (2.6.0)
     jekyll (3.4.3)
       addressable (~> 2.4)
@@ -64,6 +64,7 @@ GEM
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
@@ -75,6 +76,7 @@ DEPENDENCIES
   jekyll-watch
   kramdown
   rouge
+  webrick (~> 1.7)
 
 BUNDLED WITH
-   1.14.6
+   1.17.2
